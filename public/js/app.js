@@ -50,7 +50,7 @@ clicky.addEventListener('click',(e)=>{
             //modal.modal("show");
             modal.style.display = 'block';
             console.log("test");
-            setTimeout(closeModal, 9000);
+            setTimeout(closeModal, 20000);
         }
         else{
             alert('something went wrong');
