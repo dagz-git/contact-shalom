@@ -27,6 +27,7 @@ clicky.addEventListener('click',(e)=>{
         email : email.value,
         message : message.value,
         subject : "PARKCREST"
+
     }
 
     let xhr = new XMLHttpRequest();
@@ -48,6 +49,8 @@ clicky.addEventListener('click',(e)=>{
             subject.value='';
             //modal.modal("show");
             modal.style.display = 'block';
+            console.log("test");
+            setTimeout(closeModal, 9000);
         }
         else{
             alert('something went wrong');
