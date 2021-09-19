@@ -1,0 +1,28 @@
+/* The navigation bar */
+.navbar {
+    overflow: hidden;
+    background-color : rgb(37,200,209);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+
+  }
+  
+  /* Links inside the navbar */
+  .navbar a {
+    float: center;
+    font-size: x-large;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Playball', cursive;
+  }
+  
+  /* Change background on mouse-over */
+  .navbar a:hover {
+    background: #ddd;
+    color: black;
+  }
